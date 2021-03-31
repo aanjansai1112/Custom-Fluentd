@@ -1,0 +1,112 @@
+[
+  {
+    "name": "time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "httpRequest",
+    "type": "record",
+    "fields": [
+      {
+        "name": "requestMethod",
+        "type": "STRING"
+      },
+      {
+        "name": "requestUrl",
+        "type": "STRING"
+      },
+      {
+        "name": "responseSize",
+        "type": "INTEGER"
+      },
+      {
+        "name": "status",
+        "type": "INTEGER"
+      },
+      {
+        "name": "userAgent",
+        "type": "STRING"
+      },
+      {
+        "name": "remoteIp",
+        "type": "STRING"
+      },
+      {
+        "name": "referer",
+        "type": "STRING"
+      },
+      {
+        "name": "host",
+        "type": "STRING"
+      },
+      {
+        "name": "requestTime",
+        "type": "FLOAT"
+      },
+      {
+        "name": "upstreamResponseTime",
+        "type": "FLOAT"
+      }
+    ]
+  }
+]
+
+
+=== success
+
+[
+  {
+    "name": "time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "remote_addr",
+    "type": "STRING"
+  },
+  {
+    "name": "remote_user",
+    "type": "STRING"
+  },
+  {
+    "name": "request_url",
+    "type": "STRING"
+  },
+  {
+    "name": "request_method",
+    "type": "STRING"
+  },
+  {
+    "name": "request_time",
+    "type": "FLOAT"
+  },
+  {
+    "name": "upstream_response_time",
+    "type": "FLOAT"
+  },
+  {
+    "name": "response_status",
+    "type": "INTEGER"
+  },
+  {
+    "name": "response_size",
+    "type": "INTEGER"
+  },
+  {
+    "name": "referrer",
+    "type": "STRING"
+  },
+  {
+    "name": "agent",
+    "type": "STRING"
+  },
+  {
+    "name": "forwarded_for",
+    "type": "STRING"
+  },
+  {
+    "name": "host",
+    "type": "STRING"
+  }
+]
+
+
