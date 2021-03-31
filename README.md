@@ -148,7 +148,7 @@ $ kubectl apply -f ds.yml -n fd
 Now Nginx ingress logs starts to insert into the bigQuery.
 
 ***
-You can use bigQuery as datasource and visualize the data.
+You can use bigQuery as datasource and visualize the data(superset, datastudio and etc).
 
 Here i used Google Datastudio for visualization.
 
