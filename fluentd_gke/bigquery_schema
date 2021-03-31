@@ -52,7 +52,9 @@
 ]
 
 
-=== success
+=== success..
+
+Use this schema in the BigQuery while creating the table.
 
 [
   {

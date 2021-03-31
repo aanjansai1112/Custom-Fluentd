@@ -1,3 +1,7 @@
+==== success... 
+
+Use this log_format in nginx.conf.
+
 log_format json '{ '
     '"time": "$time_iso8601", '
     '"remote_addr": "$remote_addr", '
@@ -13,9 +17,10 @@ log_format json '{ '
     '"forwarded_for": "$http_x_forwarded_for", '
     '"host": "$host" '
 '}';
+
 access_log /var/log/nginx/access.log json;
 
-===== success
+==== extra
 
     log_format json_combined escape=json '{ "httpRequest": {'
         '"requestMethod": "$request_method", '
