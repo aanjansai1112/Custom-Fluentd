@@ -133,7 +133,7 @@ $ kubectl apply -f new-rbac.yml
 Step. 2
 First create the secret from the BigQuery service account key.
 
-$ kubectl create secret generic database --from-file=bigquery.json -n fd
+$ kubectl create secret generic --from-file=bigquery.json -n fd
 
 step. 3
 Create the configmap from fluent.conf file
